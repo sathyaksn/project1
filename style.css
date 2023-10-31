@@ -1,0 +1,113 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    padding:.5rem,6rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color:#29f700;
+    
+}
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid#29f700;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center}
+    #home{
+        background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,.1)),url(https://4.imimg.com/data4/RB/PO/MY-4099039/commercial-kitchen-equipment-500x500.png);
+        background-position: center ;
+        background-size: cover;
+        flex-direction: column;
+    }
+    #home h1{
+        font-size: 100px;
+        color: blanchedalmond;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px #ccc,
+        0px 2px 0px #ccc,
+        0px 3px 0px #ccc,
+        0px 4px 0px #ccc,
+       0px 5px 0px #ccc,
+        0px 6px 0px #ccc,
+        0px 7px 0px #ccc;
+    }
+    #home p{
+        color:gold;
+        font-size:20px;
+    }
+    #about{
+        background: linear-gradient(to right, red,green,#eb466b 100%);
+    }
+    #about h1{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    #about p{
+        color:white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:18px;
+    }
+#product{
+    background-color:#e5e5e5 ;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 400px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.2),
+    inset 4px 4px 10px white;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+}
+.signin{
+    background: green !important;
+    color: white !important;
+}
+.card:hover{
+    box-shadow:inset 5px 5px 10px rgba(0,0,0,.3);
+    transition: 2s;
+}
+.box{
+    width: 80% !important;
+margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    margin: 10px 0px !important;
+    }
+    #contact img{
+        height: 100%;
+    }
